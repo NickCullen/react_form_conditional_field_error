@@ -47,10 +47,6 @@ const App: React.FC = () => {
 
   async function submit(dto: IDtoExample): Promise<void> {
     console.log(dto);
-
-    await delay(500);
-
-    form.reset(dto);
   }
 
   return (
